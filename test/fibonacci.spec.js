@@ -7,4 +7,8 @@ describe('fibonacci tests', function() {
         const actual = fibonacci(5);
         expect(actual).toBe(8)
     })
+    it('when 2 returns 2', function() {
+        const actual = fibonacci(2);
+        expect(actual).toBe(2)
+    })
 })
